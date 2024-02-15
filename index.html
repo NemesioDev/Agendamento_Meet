@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatização de Reuniões</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Criar Nova Reunião</h1>
+    <form id="meeting-form">
+        <label for="summary">Título:</label>
+        <input type="text" id="summary" name="summary" required><br><br>
+        <label for="start-time">Hora de Início:</label>
+        <input type="datetime-local" id="start-time" name="start-time" required><br><br>
+        <label for="end-time">Hora de Término:</label>
+        <input type="datetime-local" id="end-time" name="end-time" required><br><br>
+        <button type="submit">Criar Reunião</button>
+    </form>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
